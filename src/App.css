@@ -1,0 +1,127 @@
+.Home {
+  text-align: center;
+}
+
+.Home-logo {
+  height: 25vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Home-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Home-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Home-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.search-box {
+  width: 800px;
+  font-size: 30px;
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+
+.Pokemon {
+  background-color: #282c34;
+  height: 100vh;
+  color: white;
+}
+
+.name {
+  text-align: left;
+  font-size: 45px;
+  padding-top: 30px;
+  color: white;
+}
+
+.name:hover {
+  color: wheat;
+}
+
+.container {
+  height: 60vh;
+  width: 70vw;
+  display: flex;
+  margin: 40px auto;
+}
+
+.control-arrow:hover {
+  background-color: #0000 !important;
+}
+
+.thumb {
+  border: 3px solid #0000 !important;
+}
+
+.thumb.selected {
+  border: 3px solid white !important;
+}
+
+.back-btn {
+  border-radius: 40px;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  margin-left: 100px;
+  align-items: center;
+}
+
+.back-btn:hover {
+  background-color: black;
+}
+
+.back-btn svg {
+  margin-left: 15px;
+}
+
+.back-btn svg:hover {
+  cursor: pointer;
+}
+
+.container svg {
+  background-color: #374643;
+}
+
+b {
+  color: cyan;
+}
+
+i {
+  background-color: #282c34;
+  padding-left: 20px;
+}
+
+.log-btn {
+  background-color: black;
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.log-btn:hover {
+  background-color: #0c0d0e;
+  cursor: pointer;
+}

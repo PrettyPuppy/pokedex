@@ -1,0 +1,101 @@
+/* 
+.react-flow__node.highlight {
+    background-color: #ff0071;
+    color: white;
+} */
+
+/* .react-flow__node {
+    border-color: #ff0071;
+    border-width: thin;
+    display: flex;
+    justify-content: center;
+    min-height: 256px;
+    min-width: 256px;
+    max-width: 1024px;
+    max-height: 1024px;
+} */
+
+.react-flow {
+    height: 100vh !important;
+}
+
+.react-flow__panel {
+    background-color: rgb(14, 11, 15)
+}
+
+.separtor {
+    height: 1px;
+    background-color: #2a2832;
+    margin: 3px 0;
+}
+
+.search-box {
+    width: 800px;
+    font-size: 30px;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+.Pokemon {
+    background-color: #282c34;
+    height: 100vh;
+    color: white;
+}
+
+.name {
+    text-align: left;
+    font-size: 45px;
+    padding-top: 30px;
+    color: white;
+    margin-left: 100px;
+}
+
+.back-btn {
+    width: 61px;
+}
+
+.back-btn:hover {
+    cursor: pointer;
+}
+
+.ability, .moves, .sprites, .types{
+    color: white;
+    font-size: 25px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+select {
+    width: 200px;
+    font-size: 20px;
+}
+
+option {
+    font-size: 15px;
+}
+
+.stats {
+    color: white;
+    font-size: 23px;
+    display: grid;
+    border: 1px solid rgb(255, 255, 255);
+    height: 150px;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0 15px;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+}
+
+.ele {
+    flex: 1 1 0%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
